@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Proxima Nova Cn Rg';
+    src: url('../fonts/ProximaNovaCond-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ProximaNovaCond-Regular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/ProximaNovaCond-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/ProximaNovaCond-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/ProximaNovaCond-Regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova ExCn Rg';
+    src: url('../fonts/ProximaNovaExCn-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ProximaNovaExCn-Bold.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/ProximaNovaExCn-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/ProximaNovaExCn-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/ProximaNovaExCn-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/ProximaNovaExCn-Bold.svg') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+/* start global rules */
+*{
+ font-family: "Proxima Nova Cn Rg" ;
+    margin: 0;
+    padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    
+}
+
+
+
+
+
+/* End global rules */
+.container{
+  height: 721px;
+  width: 100%;
+  background-image: url(../img/website\ background-01.png);
+  background-position: center;
+background-size: cover;
+position: relative;
+}
+
+nav{
+  overflow: auto;
+  width: 100%;
+  }
+
+  .left{
+   float: left;
+   margin-left: 29%;
+   margin-top: 110px;
+   
+}
+.right{
+  float: right;
+  margin-right: 20%;
+  margin-top: 110px;
+}
+li{
+display: inline-block;
+}
+.left li a{
+  width: 100px;
+  display: block;
+  font-size: 10pt;
+  text-decoration: none;
+  color: #3c4d70;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+.right li a{
+
+  width: 50px;
+  display: block;
+  color: #3c4d70;
+  text-align: center;
+ 
+
+}
+.left li a:hover , .right li a:hover{
+
+color: #faaf40;
+}
+.fa-facebook-f , .fa-instagram , .fa-linkedin-in{
+   font-size: 18px;
+   font-weight: bold;
+}
+.content{
+
+
+  width: 100%;
+}
+.content h1{
+  font-size: 70px;
+  color: #3c4d70;
+  margin-top: 11%;
+  margin-left: 12%;
+ display: inline-block;
+}
+.color{
+  color: #faaf40;
+}
+
+.content img{
+  float: right;
+width: 18%;
+  margin-right: 16%;
+  margin-top: 7%;
+  
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #3c4d70;
+  border: 3px solid #3c4d70;
+  border-radius: 47px;
+  padding: 12px 34px;
+  font-size: 30px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-left: 12%;
+
+}
+
+.btn:hover{
+  border: 3px solid #3c4d70 ;
+  color: #fff;
+  background:#3c4d70;
+  transition:0.5s;
+} 
+
+.footer{
+padding-top: 20px;
+  width: 100%;
+  height: 24vh;
+  background-color:rgba(4, 9, 30, 0.925) ;
+  color: #777;
+}
+  .footer a:hover {
+    color: #faaf40;
+  }
+.contact-footer {
+
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+ margin-left: 45.8%;
+}
+
+
+.ul-footer{
+  margin-top: 20px;
+  margin-left: 43.3%;
+}
+.ul-footer li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px;
+}
+
+.ul-footer li a :hover{
+  color: #faaf40;
+}
+
+.footer p{
+  padding-top: 26px;
+  text-align: center;
+  margin-right: 1.4%;
+}
+.my-email{
+  text-decoration: none;
+  color: #777;
+  /* margin-left: 0.5%; */
+}
